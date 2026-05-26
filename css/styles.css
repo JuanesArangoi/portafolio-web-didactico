@@ -272,6 +272,28 @@ body {
 }
 
 /* ============================================
+   LISTA SITUACIONES DIDÁCTICAS
+   ============================================ */
+.list-situaciones {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-situaciones li {
+    padding: 12px 15px;
+    margin-bottom: 10px;
+    background: linear-gradient(135deg, rgba(255, 182, 193, 0.15), rgba(212, 165, 214, 0.15));
+    border-left: 4px solid var(--pastel-purple);
+    border-radius: 0 10px 10px 0;
+    transition: all 0.3s ease;
+}
+
+.list-situaciones li:hover {
+    background: linear-gradient(135deg, rgba(255, 182, 193, 0.3), rgba(212, 165, 214, 0.3));
+    transform: translateX(5px);
+}
+
+/* ============================================
    IMAGE PLACEHOLDERS
    ============================================ */
 .img-profile {
